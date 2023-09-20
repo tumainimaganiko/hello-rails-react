@@ -12,7 +12,10 @@ const Greetings = () => {
   }, [dispatch]);
   
   return (
-    <h1>{greetings.greeting}</h1>
+    <>
+      <h1>Welcome to our application</h1>
+      <p>{greetings.greeting}</p>
+    </>
   );
 };
 
